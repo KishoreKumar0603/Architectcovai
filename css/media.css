@@ -1,0 +1,79 @@
+
+@media only screen and (max-width: 576px) {
+   
+  }
+@media only screen and (max-width: 768px) {
+    .info h1{
+        font-size:55px;
+    }
+    .construct{
+        top:25% !important;
+        left:20% !important;
+    }
+    .home{
+        top:40%;
+        left:20% !important;
+    }
+    .coimbatore{
+        top:55%;
+        left:20% !important;
+    }
+    .dtl-landscape h2{
+        font-size:20px ;
+    }
+    .dtl-landscape p{
+        font-size:12px !important;
+    }
+    .flip-card-back p{
+        font-size:12px;
+    }
+    .div{
+        height: 375px;
+    }
+    .imgs{
+        height: 200px;
+    }
+    .sect-6{
+        height: 1000px;
+        background: rgb(229, 228, 213);
+    }
+  }
+@media only screen and (max-width: 992px) {
+    .box{
+        font-size:px12;
+    }
+    .box h2{
+        font-size: 20px;
+    }
+    .coimbatore{
+        bottom:40%;
+        top:0;
+    }
+    .flip-card{
+        height: 400px;
+    }
+    .flip-card-back h1{
+        font-size:20px
+    }
+  }
+@media only screen and (max-width: 1200px) {
+   
+    .info h1{
+        font-size:75px;
+    }
+    .construct{
+        top:20%;
+        left:10%;
+    }
+    .home{
+        top:40%;
+        left:30%;
+    }
+    .coimbatore{
+        top:55%;
+        left:40%;
+    }
+  }
+@media only screen and (max-width: 1400px) {
+   
+  }
