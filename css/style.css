@@ -15,7 +15,7 @@ h1{
     font-size: 10vw;
 }
 body{
-    background-image:url(/images/trend-bg.jpg);
+    background-image:url(/Architectcovai/images/trend-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -34,7 +34,7 @@ section{
 }
 .sect-1{
     /* background */
-    background:linear-gradient(rgba(0, 0, 0, 0.615),rgba(0, 0, 0, 0.555)),url(/images/bg1.jpg);
+    background:linear-gradient(rgba(0, 0, 0, 0.615),rgba(0, 0, 0, 0.555)),url(/Architectcovai/images/bg1.jpg);
     background-size: cover;
     height: calc(100vh - 50px);
 }
@@ -103,11 +103,12 @@ section{
 }
 .info h1{
     font-size:90px;
-    transition: 0.1s;
+    transition: 0.5s;
 
 }
 .info-hover:hover{
     -webkit-text-stroke: 1.2px var(--theme-color);
+    cursor:pointer;
 }
 .construct{
     position: absolute;
@@ -115,6 +116,7 @@ section{
     left:15%;
     -webkit-text-stroke:1px white ;
     color:transparent;
+
 }
 .home{
     position: absolute;
@@ -128,7 +130,8 @@ section{
     top:50%;
     left:50%;
     -webkit-text-stroke:1px white ;
-    color:transparent;
+    color:transparent; 
+    /* transition:0.4s; */
 }
 .sect-3{
     background: transparent;
@@ -281,9 +284,10 @@ section{
 }
 .imgs{
     height:70px;
-}
-.imgs:hover{
     transition:0.4s;
     transition-delay: 0.2s;
+}
+.imgs:hover{
     opacity: 0.79;
+    transform: scale(1.03);  
 }
