@@ -15,7 +15,7 @@ h1{
     font-size: 10vw;
 }
 body{
-    background-image:url(/Architectcovai/images/trend-bg.jpg);
+    background-image:url(/images/trend-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -34,7 +34,7 @@ section{
 }
 .sect-1{
     /* background */
-    background:linear-gradient(rgba(0, 0, 0, 0.615),rgba(0, 0, 0, 0.555)),url(/Architectcovai/images/bg1.jpg);
+    background:linear-gradient(rgba(0, 0, 0, 0.615),rgba(0, 0, 0, 0.555)),url(/images/bg1.jpg);
     background-size: cover;
     height: calc(100vh - 50px);
 }
