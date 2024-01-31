@@ -106,6 +106,9 @@ section{
     transition: 0.5s;
 
 }
+.info{
+    user-select: none;
+}
 .info-hover:hover{
     -webkit-text-stroke: 1.2px var(--theme-color);
     cursor:pointer;
@@ -116,6 +119,7 @@ section{
     left:15%;
     -webkit-text-stroke:1px white ;
     color:transparent;
+
 
 }
 .home{
